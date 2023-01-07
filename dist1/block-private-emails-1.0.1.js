@@ -12,6 +12,7 @@ $(document).ready(function() {
         return false;
       }
       else{	
+        $('.c-error-work-email').css('display', "none");
         return true;
       }
     });
