@@ -8,7 +8,7 @@ $(document).ready(function() {
     
       if(invalidDomains.indexOf(domainPart) !== -1) {
         email.val('');
-        email.attr('placeholder','Please enter a valid business email');
+        $('.c-error-work-email').css('display', "block");
         return false;
       }
       else{	
